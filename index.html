@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PWA Theme Color -->
+    <meta name="theme-color" content="#b22222" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Authentic Maharashtrian Spices & Food – Buy famous spices, masalas, and traditional items like Puran Poli, Bhakarwadi, Modaks, and Chitale Bandhu snacks online."
+    />
+    <meta
+      name="keywords"
+      content="Maharashtrian food, Goda masala, Bhakarwadi, Modaks, Puran Poli, Chitale Bandhu snacks, Malvani masala, online spice store"
+    />
+    <meta name="author" content="Swad Maharashtra Cha" />
+
+    <title>Swad Maharashtra Cha - Authentic Maharashtrian Food</title>
+
+    <!-- Manifest File for PWA -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Swad Maharashtra Cha</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#spices">Spices</a>
+        <a href="#sweets">Sweets</a>
+        <a href="#snacks">Snacks</a>
+        <a href="#contact">Contact</a>
+        <div class="cart-icon">
+          <img src="images/cart.svg" alt="Cart" />
+          <span class="cart-count">0</span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Authentic Taste of Maharashtra</h1>
+        <p>
+          Explore our curated selection of traditional spices, sweets, and
+          snacks shipped straight from local Maharashtrian kitchens to your
+          doorstep.
+        </p>
+        <a href="#spices" class="btn">Start Tasting</a>
+      </div>
+      <div class="hero-img">
+        <img src="images/maharashtra-feast.webp" alt="Maharashtrian Feast" />
+      </div>
+    </section>
+
+    <section class="section" id="spices">
+      <h2>🌶️ Signature Spices</h2>
+      <div class="product-grid">
+        <div class="card">
+          <div class="card-img">
+            <img src="images/goda-masala.webp" alt="Goda Masala" />
+            <div class="card-badge">Bestseller</div>
+          </div>
+          <h3>Goda Masala</h3>
+          <p>
+            Traditional blend for sabzis, dal, and bhaji prepared by skilled
+            local artisans.
+          </p>
+          <div class="card-price">₹299 <span class="old-price">₹349</span></div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/malvani-masala.webp" alt="Malvani Masala" />
+          </div>
+          <h3>Malvani Masala</h3>
+          <p>
+            Fiery and flavorful, perfect for coastal dishes with authentic
+            Konkan taste.
+          </p>
+          <div class="card-price">₹279</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/kanda-lasun.webp" alt="Kanda Lasun Masala" />
+          </div>
+          <h3>Kanda Lasun Masala</h3>
+          <p>
+            Bold garlic-onion mix, essential in Maharashtrian kitchens for daily
+            cooking.
+          </p>
+          <div class="card-price">₹249</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sweets">
+      <h2>🍬 Sweet Traditions</h2>
+      <div class="product-grid">
+        <div class="card">
+          <div class="card-img">
+            <img src="images/puran-poli.webp" alt="Puran Poli" />
+            <div class="card-badge">Homemade</div>
+          </div>
+          <h3>Puran Poli</h3>
+          <p>
+            Soft wheat flatbreads stuffed with sweet chana filling. Pack of 5
+            pieces.
+          </p>
+          <div class="card-price">₹399</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/modak.webp" alt="Ukadiche Modak" />
+            <div class="card-badge">Festival Special</div>
+          </div>
+          <h3>Ukadiche Modak</h3>
+          <p>
+            Steamed sweet dumplings with coconut-jaggery goodness. Pack of 10
+            pieces.
+          </p>
+          <div class="card-price">₹349</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/shrikhand.webp" alt="Amrakhand" />
+          </div>
+          <h3>Amrakhand</h3>
+          <p>
+            Creamy strained yogurt dessert flavored with fresh Alphonso mangoes.
+          </p>
+          <div class="card-price">₹199</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="snacks">
+      <h2>🥟 Snacks by Chitale Bandhu</h2>
+      <div class="product-grid">
+        <div class="card">
+          <div class="card-img">
+            <img src="images/bhakarwadi.webp" alt="Bhakarwadi" />
+            <div class="card-badge">Popular</div>
+          </div>
+          <h3>Bhakarwadi</h3>
+          <p>
+            Spicy, sweet, and crunchy spirals from Chitale. 250g premium pack.
+          </p>
+          <div class="card-price">₹180</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/chivda.webp" alt="Poha Chivda" />
+          </div>
+          <h3>Poha Chivda</h3>
+          <p>Crispy flattened rice snack with peanuts and spices. 200g pack.</p>
+          <div class="card-price">₹150</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/chakli.webp" alt="Chakli" />
+          </div>
+          <h3>Chakli</h3>
+          <p>
+            Spiral-shaped crispy snack made from rice flour and spices. 200g
+            pack.
+          </p>
+          <div class="card-price">₹160</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            "The Goda Masala is exactly like what my aaji (grandmother) used to
+            make. It brings back so many memories of Maharashtra!"
+          </p>
+          <div class="customer">- Priya Joshi, Mumbai</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            "Chitale's Bhakarwadi from Swad Maharashtra Cha is always fresh and
+            perfect. I order monthly for my family in the US."
+          </p>
+          <div class="customer">- Rohan Kulkarni, New Jersey</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Connect With Us</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Our Shop</h3>
+          <p>
+            <strong>Address:</strong> 123 Laxmi Road, Pune 411030, Maharashtra
+          </p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Email:</strong> info@swadmaharashtra.com</p>
+          <p><strong>Hours:</strong> Monday - Saturday, 10 AM - 8 PM</p>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo">Swad Maharashtra Cha</div>
+          <p>
+            Bringing authentic Maharashtrian flavors to your doorstep since
+            2022.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#spices">Spices</a>
+          <a href="#sweets">Sweets</a>
+          <a href="#snacks">Snacks</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Subscribe for Updates</h4>
+          <p>Get special offers and seasonal product alerts.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email address" />
+            <button class="btn-small">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Swad Maharashtra Cha. Crafted with ❤️ in Pune.</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/serviceworker.js")
+            .then((registration) => {
+              console.log("✅ Service Worker registered! Scope:", registration.scope);
+   
+              // 🔔 Request Push Notification Permission
+              if ("PushManager" in window) {
+                Notification.requestPermission().then((permission) => {
+                  if (permission === "granted") {
+                    console.log("🔔 Push notifications granted.");
+                  } else {
+                    console.log("🔕 Push notifications denied.");
+                  }
+                });
+              }
+   
+              // 🔄 Register Background Sync
+              if ("SyncManager" in window) {
+                navigator.serviceWorker.ready.then((swReg) => {
+                  swReg.sync.register("sync-data").then(() => {
+                    console.log("🔄 Sync registered");
+                  }).catch((err) => {
+                    console.log("❌ Sync registration failed:", err);
+                  });
+                });
+              }
+            })
+            .catch((error) => {
+              console.log("❌ Service Worker registration failed:", error);
+            });
+        });
+      }
+    </script>
+</body>
+</html>
