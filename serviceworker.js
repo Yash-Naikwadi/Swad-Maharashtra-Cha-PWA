@@ -111,12 +111,19 @@ self.addEventListener("push", function (event) {
     }
 
     if (data.method === "pushMessage") {
-      console.log("Push notification sent");
-      event.waitUntil(
-        self.registration.showNotification("Swad Maharashtra Cha", {
-          body: data.message,
-        })
-      );
+      console.log("Push notification received");
+
+      // ✅ Check permission before showing notification
+      if (Notification.permission === "granted") {
+        event.waitUntil(
+          self.registration.showNotification("Swad Maharashtra Cha", {
+            body: data.message,
+          })
+        );
+      } else {
+        console.warn("🚫 Cannot show notification: permission not granted.");
+      }
     }
   }
 });
+
